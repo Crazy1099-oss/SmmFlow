@@ -60,6 +60,7 @@ a {
 
 .nav-nemu a {
     margin-right: 30px;
+    transition: 0.3s;
 }
 
 .nav-nemu a:first-child {
@@ -75,6 +76,7 @@ a {
     border: none;
     cursor: pointer;
     margin-right: 30px;
+    transition: 0.3s;
 }
 
 .btn {
@@ -86,6 +88,7 @@ a {
     color: white;
     font-weight: 500;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .header {
@@ -124,4 +127,110 @@ a {
     right: 20px;
     width: 550px;
     z-index: -1;
+}
+
+/*-----------------> Quick order <-----------------*/
+.quick-order-wraper {
+    width: 100%;
+    height: 612px;
+    background-color: #0058FF;
+    margin-top: 270px;
+    padding-top: 40px;
+}
+
+.quick-order-wraper .container h2 {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.quick-order-social_media {
+    width: 100%;
+    height: 56px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quick-order-social_media {
+    margin-bottom: 20px;
+}
+
+.btn-social_media {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.btn-social_media:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.btn-social_media:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.btn-social_media img {
+    width: 32px;
+    margin-right: 8px;
+}
+
+.quick-order-services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.services-box {
+    height: 170px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    flex: 0 1 calc((100% - 4 * 20px) / 5);
+    transition: 0.2s;
+}
+
+.services-box div {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/*-----------------> Animation <-----------------*/
+.btn-social_media:hover {
+    background-color: #BBCAF3;
+}
+
+.nav-nemu a:hover {
+    color: #0058FF;
+}
+
+.btn-register:hover {
+    color: #0058FF;
+}
+
+.btn:hover {
+    font-weight: 700;
+    background-color: #0058FF;
+}
+
+.services-box:hover {
+    background-color: rgb(212, 212, 212);
 }
